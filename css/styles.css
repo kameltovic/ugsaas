@@ -15,3 +15,42 @@ body, html{
     width:100%;
     object-fit: cover;
 }
+
+
+.clndr-table{
+    width:100%;
+}
+
+.day{
+    width:14.2%;
+    text-align:center;
+    border:1px solid #eee;
+    box-sizing: border-box;
+    padding:8px;
+}
+
+.today{
+    background: #057857;
+    color: #fff;
+    font-weight: 700;
+}
+
+.clndr-controls{
+    display: flex;
+    padding:5px;
+    margin-top: 10px;
+}
+
+.clndr-controls div{
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.month{
+    font-weight: 700;
+    color: #057857;
+}
+
+.header-day{
+    text-align: center;
+}

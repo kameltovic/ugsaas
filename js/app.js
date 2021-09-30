@@ -52,10 +52,7 @@ for(var i = 0; i < 10; i++){
 
         document.getElementById('myCourses').appendChild(course);
 
-
-
-
-
 }
 
 //document.getElementById('myCourses').innerHTML = course;
+
