@@ -9,3 +9,9 @@ body, html{
     width:100%;
     object-fit: cover;
 }
+
+.singCourseImg{
+    height:360px;
+    width:100%;
+    object-fit: cover;
+}

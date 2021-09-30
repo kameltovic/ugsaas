@@ -19,7 +19,7 @@ var course =`
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. At porro, aliquam perferendis placeat, rerum voluptate magni minus itaque iste reprehenderit beatae eius distinctio cumque sit debitis! Distinctio maxime qui officia.
                         </div>
                         <div class="rounded-md shadow p-4 py-5">
-                            <a href="#"
+                            <a href="single.html"
                                 class="w-full flex items-center justify-center px-3 py-3 border border-transparent text-base font-bold  rounded-md text-gray-900 bg-gray-100 hover:bg-gray-100 ">
                                Get a quote
                             </a>
