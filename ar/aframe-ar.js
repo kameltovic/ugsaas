@@ -3074,10 +3074,11 @@ ARjs.Source.prototype._initSourceWebcam = function (onReady, onError) {
 		//For Iphones
 		if(isAndroid === false){
 			for(var i = 0; i < devices.length; i++){
-			deviceLabel = devices[i].label;
+
 				if(devices[i].kind === "videoinput"){
 					if(devices[i].label.includes("Back")){
 						deviceToUse = devices[i].deviceId;
+                        deviceLabel = devices[i].label;
 						break;
 					}
 				}
@@ -3114,8 +3115,7 @@ ARjs.Source.prototype._initSourceWebcam = function (onReady, onError) {
 		navigator.mediaDevices.getUserMedia(userMediaConstraints).then(function success(stream) {
 			//If permissions have been accepted for the first time, device label will show as ""
 			if(deviceLabel === ""){
-                alert(deviceLabel);
-				location.reload();
+
 			}
 			// set the .src of the domElement
             domElement.srcObject = stream;
