@@ -3074,6 +3074,7 @@ ARjs.Source.prototype._initSourceWebcam = function (onReady, onError) {
 		//For Iphones
 		if(isAndroid === false){
 			for(var i = 0; i < devices.length; i++){
+			deviceLabel = devices[i].label;
 				if(devices[i].kind === "videoinput"){
 					if(devices[i].label.includes("Back")){
 						deviceToUse = devices[i].deviceId;
