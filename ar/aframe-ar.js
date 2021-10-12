@@ -3113,6 +3113,7 @@ ARjs.Source.prototype._initSourceWebcam = function (onReady, onError) {
 		navigator.mediaDevices.getUserMedia(userMediaConstraints).then(function success(stream) {
 			//If permissions have been accepted for the first time, device label will show as ""
 			if(deviceLabel === ""){
+                alert(deviceLabel);
 				location.reload();
 			}
 			// set the .src of the domElement
