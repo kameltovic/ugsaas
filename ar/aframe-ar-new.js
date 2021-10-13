@@ -3093,6 +3093,7 @@ var isAndroid = false;
 				}
 			};
 		}else{
+			userMediaConstraints = {
             audio: false,
             video: {
                 facingMode: 'environment',
