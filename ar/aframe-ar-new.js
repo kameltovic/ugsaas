@@ -3109,6 +3109,7 @@ var isAndroid = false;
                 }
             }
         };
+		}
 
         if (null !== _this.parameters.deviceId) {
             userMediaConstraints.video.deviceId = {
